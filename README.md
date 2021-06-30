@@ -45,7 +45,7 @@ This program outputs the input string as a text file by specifying the format su
  example:
   fmtsrc file='xxx.txt' export='zzz.txt'
   fmtsrc url='https://xxx.com/yyy.txt' export='zzz.txt'
-## e_encodings
+## e_encoding
  The text encoding of the output file. If not specified, input encoding is applied.
  example:
-  fmtsrc url='https://xxx.com/yyy.txt' export='zzz.txt' e_encodings='utf-8'
+  fmtsrc url='https://xxx.com/yyy.txt' export='zzz.txt' e_encoding='utf-8'
