@@ -1,7 +1,7 @@
 import sys,io,platform
 import unicodedata,re
 import urllib.request
-def makedata(args):
+def main(args):
     unicodeform=None
     getOS=_check_os
     string=None
@@ -110,4 +110,4 @@ def _check_os():
         return 'Mac'
     elif pf == 'Linux':
         return pf
-makedata(sys.argv)
+main(sys.argv)
